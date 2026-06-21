@@ -28,9 +28,9 @@ A data management system for optical clinics and business built upon the electro
     -	Inventory fields are determined through their classification
     -	Image upload is optional for some classification
 4.	Statistical Visualization
-    -	Pie Chart
-    -	Bar Chart
-    -	Line Chart
+    -	Sales
+    -	Patient Activity
+    -	Inventory
 5.	Backups & Syncing
     -	Can export a backup file that can be used to restore a newly installed app
     -	Can potentially make cloud backups if set up
@@ -52,14 +52,12 @@ A data management system for optical clinics and business built upon the electro
 8.	API Handling (Try)
     -	Ability to set up available APIs like (Cloud Database, Cloud Storage, SMS API)
     -	If not provided, all will be offline and will not include extra features
-9.	Containerization (Docker)
-    -	Containerize the app before prod to make update easier and seamless
-10.	UI/UX
+9.	UI/UX
     -	Configure the windows of the electron app
     -	Should have an opening animation
     -	Flexible with a minimum screen size of 720p
     -	Should look clean, complete and user friendly
-11.	System Tools/Languages
+10.	System Tools/Languages
     -	React JS (Frontend)
         1.	Vite
         2.	React Zod
@@ -67,7 +65,7 @@ A data management system for optical clinics and business built upon the electro
         4.	Zustand
         5.	TanStack
     -	Node JS (Backend)
-        1.	Express JS
+        1.	Express JS (Only for phone)
         2.	Prisma (Eloquent ORM)
         3.	CORS
         4.	JWT
@@ -78,9 +76,10 @@ A data management system for optical clinics and business built upon the electro
         1.	ContextBridge (Don’t expose node directly)
         2.	Store secrets safely	 
     -	SQLite & Postgre
-    -	Docker
     -	Postman
     -	Jest (For testing)
     -	Tailwind
     -	Canva
     -	Git
+    -   Supabase
+    -   Cloudflare R2
