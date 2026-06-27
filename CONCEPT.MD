@@ -75,7 +75,7 @@ A data management system for optical clinics and business built upon the electro
     -	Electron JS
         1.	ContextBridge (Don’t expose node directly)
         2.	Store secrets safely	 
-    -	SQLite & Postgre
+    -	SQLite (w/ SQLCipher) & Postgre
     -	Postman
     -	Jest (For testing)
     -	Tailwind
