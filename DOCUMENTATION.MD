@@ -27,10 +27,10 @@ This would feature a setup screen similar to when the user first install the win
 2.  On the following step, the app asks the user **How will you be using Glance?** where the user picks what best fits their business operations.
     -   **Personal** - Great for managing the user's personal optical clinic.
     -   **Business/Team** - Great for larger enterprises where the clinic can have multiple branches and users.
-3.  Next is the account creation, recovery, or linking.
+3.  Next is the account creation, or linking.
     - **Personal** - During this set up the user can create an account or recover from a backup file.
         -   Creating an account would only need the user to enter their **Username**, **Email**, and **Password**.
-        -   When recovering from a backup, the app needs the user to upload or import a back up file exported by the Glance app to restore the apps database and other essential things.
+
     -   **Business/Team** - On this set up, users can still create their own accounts or link up an already exisiting account. Two options are presented to the user whether the purpose is to create a **New Clinic Account** or link up an **Already exisiting Clinic Account**.
         -   If the user selects the **New Clinic Accoint**, creating an account is similar to a personal account registration where it would only need the user to enter their **Username**, **Email**, and **Password**.
         -   However, if the user selects **Aleardy Exisiting Clinic Account**, they need to follow a specific procedure:
@@ -68,5 +68,10 @@ They can recovery their account just only through the app itself:
 
 > Rate limiting is also advised here to descourage multiple account password request on a single moment on the same device. They would be disabled for 5 minutes if they reached 6 consecutive failed log in attempts.
 
+### Recovering from a Glance Backup file
+
+The Glance app incorporates an offline backup feature where it can export all its necessary data from a previous account or system. This includes the acount of the previous registered account or user and all its database.
+
+> The backup doesn't include other files besides from its database
 
 
